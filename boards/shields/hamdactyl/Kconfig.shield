@@ -1,0 +1,9 @@
+config SHIELD_HAMDACTYL_DONGLE
+    def_bool $(shields_list_contains,hamdactyl_dongle)
+  
+config SHIELD_HAMDACTYL_RIGHT
+    def_bool $(shields_list_contains,hamdactyl_right)
+  
+config SHIELD_HAMDACTYL_LEFT
+    def_bool $(shields_list_contains,hamdactyl_left)
+  
