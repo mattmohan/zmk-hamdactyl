@@ -1,6 +1,6 @@
 manifest:
   defaults:
-    revision: v0.3
+    revision: main
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -15,6 +15,6 @@ manifest:
     
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: v0.3 # main # use 'v0.3' instead of 'main' if you use have pinned zmk to 'v0.3' or below
+      revision: main # use 'v0.3' instead of 'main' if you use have pinned zmk to 'v0.3' or below
   self:
     path: config
