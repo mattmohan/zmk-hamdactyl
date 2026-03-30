@@ -70,10 +70,10 @@
         width = <128>;
         height = <64>;
 
-        segment-offset = <2>;
+        segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
-        multiplex-ratio = <0x3f>;
+        multiplex-ratio = <63>;
         prechargep = <0x22>;
         segment-remap;
         com-invdir;
