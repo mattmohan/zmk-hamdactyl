@@ -26,9 +26,9 @@ config ZMK_SPLIT
 endif
 
 # ---------------------
-# Kconfig for shield "hamdactyl_dongle" with board "seeeduino_xiao_ble"
+# Kconfig for shield "hamdactyl_dongle"
 # ---------------------
-if BOARD_SEEEDUINO_XIAO_BLE && SHIELD_HAMDACTYL_DONGLE
+if SHIELD_HAMDACTYL_DONGLE
 
 config I2C
     default y
