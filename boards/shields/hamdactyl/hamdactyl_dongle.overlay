@@ -67,16 +67,16 @@
     oled: sh1106@3c {
         compatible = "sinowealth,sh1106";
         reg = <0x3c>;
-        width = <128>;
+        width = <132>;
         height = <64>;
 
-        segment-offset = <0>;
+        segment-offset = <2>;
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <63>;
         prechargep = <0x22>;
         //segment-remap;
-        //com-invdir;
+        com-invdir;
         com-sequential;
         inversion-on;
     };
