@@ -13,10 +13,10 @@
 &mt LEFT_COMMAND ESCAPE          &kp A         &kp S         &kp D                           &kp F          &kp G         &kp H         &kp J     &kp K                           &kp L          &kp SEMICOLON  &kp ENTER
 &mt LEFT_SHIFT LEFT_PARENTHESIS  &kp Z         &kp X         &kp C                           &kp V          &kp B         &kp N         &kp M     &kp COMMA                       &kp PERIOD     &kp SLASH      &mt RIGHT_SHIFT RIGHT_PARENTHESIS
 &kp MINUS                        &kp LCTRL     &kp LEFT_ALT                                                                                                                       &kp EQUAL      &kp MINUS      &kp SQT
-                                                             &mt LS(LA(LC(LCMD))) LESS_THAN  &mt LCMD LBKT  &lt 2 SPACE   &lt 1 SPACE   &kp RBKT  &mt LS(LA(LCTRL)) GREATER_THAN  &studio_unlock &studio_unlock
+                                                             &mt LS(LA(LC(LCMD))) LESS_THAN  &mt LCMD LBKT  &lt 2 SPACE   &lt 1 SPACE   &kp RBKT  &mt LS(LA(LCTRL)) GREATER_THAN  &bootloader    &studio_unlock
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN >;
+            sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_DN C_VOL_UP >;
         };
 
         functions {
