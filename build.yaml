@@ -35,11 +35,11 @@ include:
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
 #    artifact-name: hamdactyl_dongle_with_studio
 
-  - board: seeeduino_xiao_ble
-    shield: hamdactyl_right
+#  - board: seeeduino_xiao_ble
+#    shield: hamdactyl_right
 
-  - board: seeeduino_xiao_ble
-    shield: hamdactyl_left
+#  - board: seeeduino_xiao_ble
+#    shield: hamdactyl_left
 
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
+#  - board: seeeduino_xiao_ble
+#    shield: settings_reset
