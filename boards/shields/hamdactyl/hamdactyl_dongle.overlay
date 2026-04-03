@@ -71,10 +71,10 @@
         height = <64>;
 
         segment-offset = <2>;
-        page-offset = <16>;
+        page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <63>;
-        prechargep = <0x22>;
+        prechargep = <0x44>;
         segment-remap;
         //com-invdir;
         inversion-on;
