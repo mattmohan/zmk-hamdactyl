@@ -79,6 +79,13 @@
         com-invdir;
         inversion-on;
     };
+
+    apds9960: apds9960@39 {
+        compatible = "avago,apds9960";
+        status = "okay";
+        reg = <0x39>;
+        int-gpios = <&xiao_d 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    };
 };
 / {
     chosen {

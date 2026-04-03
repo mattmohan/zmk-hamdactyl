@@ -21,7 +21,7 @@
 include:
 
   - board: seeeduino_xiao_ble
-    shield: hamdactyl_dongle dongle_display
+    shield: hamdactyl_dongle #dongle_display
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: hamdactyl_dongle_with_studio
