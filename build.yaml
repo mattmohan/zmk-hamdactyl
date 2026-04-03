@@ -20,7 +20,7 @@
 ---
 include:
 
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: hamdactyl_dongle #dongle_display
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
